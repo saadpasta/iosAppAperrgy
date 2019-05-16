@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93228891228D3A5F00252D08 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93228890228D3A5F00252D08 /* ImageManager.swift */; };
 		932FB6EB228BD0F200BCB269 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FB6EA228BD0F200BCB269 /* AppDelegate.swift */; };
 		932FB6ED228BD0F200BCB269 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FB6EC228BD0F200BCB269 /* ViewController.swift */; };
 		932FB6F0228BD0F200BCB269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932FB6EE228BD0F200BCB269 /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		932FB6F5228BD0F600BCB269 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932FB6F3228BD0F600BCB269 /* LaunchScreen.storyboard */; };
 		932FB700228BD0F600BCB269 /* aperchyDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FB6FF228BD0F600BCB269 /* aperchyDemoTests.swift */; };
 		932FB70B228BD0F600BCB269 /* aperchyDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FB70A228BD0F600BCB269 /* aperchyDemoUITests.swift */; };
+		932FB719228BFB5900BCB269 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 932FB718228BFB5900BCB269 /* GoogleService-Info.plist */; };
+		93EBC79487CDA19C5E2894DB /* Pods_aperchyDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E3DFF863441ADF0A8D2595 /* Pods_aperchyDemo.framework */; };
+		BAD83A4B7E4A2FF65F167B0C /* Pods_aperchyDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C719A9BAD06AF3F921F4D3 /* Pods_aperchyDemoTests.framework */; };
+		F61A6FD5699A3B904166B2AC /* Pods_aperchyDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D1F854BD34AFA4039E3C953 /* Pods_aperchyDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0863FEA7070C9B9A0C0E289D /* Pods-aperchyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aperchyDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-aperchyDemo/Pods-aperchyDemo.release.xcconfig"; sourceTree = "<group>"; };
+		1E9DDCFC247BF0BAF440E301 /* Pods-aperchyDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aperchyDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-aperchyDemoUITests/Pods-aperchyDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2D31021FD4D0365340AE8A82 /* Pods-aperchyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aperchyDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-aperchyDemo/Pods-aperchyDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		41C719A9BAD06AF3F921F4D3 /* Pods_aperchyDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aperchyDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1F854BD34AFA4039E3C953 /* Pods_aperchyDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aperchyDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87459542D9E810DE099C51BD /* Pods-aperchyDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aperchyDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-aperchyDemoTests/Pods-aperchyDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		93228890228D3A5F00252D08 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 		932FB6E7228BD0F200BCB269 /* aperchyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aperchyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		932FB6EA228BD0F200BCB269 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		932FB6EC228BD0F200BCB269 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,10 @@
 		932FB706228BD0F600BCB269 /* aperchyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aperchyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		932FB70A228BD0F600BCB269 /* aperchyDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aperchyDemoUITests.swift; sourceTree = "<group>"; };
 		932FB70C228BD0F600BCB269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		932FB718228BFB5900BCB269 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B2E3DFF863441ADF0A8D2595 /* Pods_aperchyDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aperchyDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D881877207AAD16DCEE3F704 /* Pods-aperchyDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aperchyDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-aperchyDemoTests/Pods-aperchyDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		EA3B580DACE121803A6964C4 /* Pods-aperchyDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aperchyDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-aperchyDemoUITests/Pods-aperchyDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93EBC79487CDA19C5E2894DB /* Pods_aperchyDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAD83A4B7E4A2FF65F167B0C /* Pods_aperchyDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F61A6FD5699A3B904166B2AC /* Pods_aperchyDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3532F9C2286E12A1B5168C98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2E3DFF863441ADF0A8D2595 /* Pods_aperchyDemo.framework */,
+				41C719A9BAD06AF3F921F4D3 /* Pods_aperchyDemoTests.framework */,
+				7D1F854BD34AFA4039E3C953 /* Pods_aperchyDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		932FB6DE228BD0F200BCB269 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +110,8 @@
 				932FB6FE228BD0F600BCB269 /* aperchyDemoTests */,
 				932FB709228BD0F600BCB269 /* aperchyDemoUITests */,
 				932FB6E8228BD0F200BCB269 /* Products */,
+				D2213702D920EE34D01AA063 /* Pods */,
+				3532F9C2286E12A1B5168C98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,7 +133,9 @@
 				932FB6EE228BD0F200BCB269 /* Main.storyboard */,
 				932FB6F1228BD0F600BCB269 /* Assets.xcassets */,
 				932FB6F3228BD0F600BCB269 /* LaunchScreen.storyboard */,
+				932FB718228BFB5900BCB269 /* GoogleService-Info.plist */,
 				932FB6F6228BD0F600BCB269 /* Info.plist */,
+				93228890228D3A5F00252D08 /* ImageManager.swift */,
 			);
 			path = aperchyDemo;
 			sourceTree = "<group>";
@@ -125,6 +158,19 @@
 			path = aperchyDemoUITests;
 			sourceTree = "<group>";
 		};
+		D2213702D920EE34D01AA063 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D31021FD4D0365340AE8A82 /* Pods-aperchyDemo.debug.xcconfig */,
+				0863FEA7070C9B9A0C0E289D /* Pods-aperchyDemo.release.xcconfig */,
+				87459542D9E810DE099C51BD /* Pods-aperchyDemoTests.debug.xcconfig */,
+				D881877207AAD16DCEE3F704 /* Pods-aperchyDemoTests.release.xcconfig */,
+				EA3B580DACE121803A6964C4 /* Pods-aperchyDemoUITests.debug.xcconfig */,
+				1E9DDCFC247BF0BAF440E301 /* Pods-aperchyDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 932FB70F228BD0F600BCB269 /* Build configuration list for PBXNativeTarget "aperchyDemo" */;
 			buildPhases = (
+				97B64550DD10A92A383F2B10 /* [CP] Check Pods Manifest.lock */,
 				932FB6E3228BD0F200BCB269 /* Sources */,
 				932FB6E4228BD0F200BCB269 /* Frameworks */,
 				932FB6E5228BD0F200BCB269 /* Resources */,
+				A814E121EFA9FB8CD46950B9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 932FB712228BD0F600BCB269 /* Build configuration list for PBXNativeTarget "aperchyDemoTests" */;
 			buildPhases = (
+				D9DEA29144F397967C1CAC9C /* [CP] Check Pods Manifest.lock */,
 				932FB6F7228BD0F600BCB269 /* Sources */,
 				932FB6F8228BD0F600BCB269 /* Frameworks */,
 				932FB6F9228BD0F600BCB269 /* Resources */,
@@ -167,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 932FB715228BD0F600BCB269 /* Build configuration list for PBXNativeTarget "aperchyDemoUITests" */;
 			buildPhases = (
+				A207B2B3F776968E5302F09C /* [CP] Check Pods Manifest.lock */,
 				932FB702228BD0F600BCB269 /* Sources */,
 				932FB703228BD0F600BCB269 /* Frameworks */,
 				932FB704228BD0F600BCB269 /* Resources */,
@@ -230,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				932FB6F5228BD0F600BCB269 /* LaunchScreen.storyboard in Resources */,
+				932FB719228BFB5900BCB269 /* GoogleService-Info.plist in Resources */,
 				932FB6F2228BD0F600BCB269 /* Assets.xcassets in Resources */,
 				932FB6F0228BD0F200BCB269 /* Main.storyboard in Resources */,
 			);
@@ -251,11 +302,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		97B64550DD10A92A383F2B10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-aperchyDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A207B2B3F776968E5302F09C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-aperchyDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A814E121EFA9FB8CD46950B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-aperchyDemo/Pods-aperchyDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aperchyDemo/Pods-aperchyDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9DEA29144F397967C1CAC9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-aperchyDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		932FB6E3228BD0F200BCB269 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93228891228D3A5F00252D08 /* ImageManager.swift in Sources */,
 				932FB6ED228BD0F200BCB269 /* ViewController.swift in Sources */,
 				932FB6EB228BD0F200BCB269 /* AppDelegate.swift in Sources */,
 			);
@@ -430,6 +571,7 @@
 		};
 		932FB710228BD0F600BCB269 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D31021FD4D0365340AE8A82 /* Pods-aperchyDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +589,7 @@
 		};
 		932FB711228BD0F600BCB269 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0863FEA7070C9B9A0C0E289D /* Pods-aperchyDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +607,7 @@
 		};
 		932FB713228BD0F600BCB269 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87459542D9E810DE099C51BD /* Pods-aperchyDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +628,7 @@
 		};
 		932FB714228BD0F600BCB269 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D881877207AAD16DCEE3F704 /* Pods-aperchyDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +649,7 @@
 		};
 		932FB716228BD0F600BCB269 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA3B580DACE121803A6964C4 /* Pods-aperchyDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +669,7 @@
 		};
 		932FB717228BD0F600BCB269 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E9DDCFC247BF0BAF440E301 /* Pods-aperchyDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
